@@ -1,0 +1,23 @@
+artifact_path: /Users/liliayu/Google Drive/BINUS/Subject/SoCS/Model Deployment/Code/update
+  code/streamlit_pipeline/iris/mlruns/1/models/m-b16fe41f9c404345ab6bd72efaa65245/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.7.0
+model_id: m-b16fe41f9c404345ab6bd72efaa65245
+model_size_bytes: 133848
+model_uuid: m-b16fe41f9c404345ab6bd72efaa65245
+prompts: null
+run_id: 3db0846889cb4da8b40c4e89d18a6473
+utc_time_created: '2025-12-17 06:50:09.391390'
